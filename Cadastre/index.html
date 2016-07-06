@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home work 5</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+<style>
+	.btn{
+    width: 276px;
+    height: 35px;
+    border: 1px solid #0a3c59;
+    background: url("img/facebook.png");
+    cursor:pointer;
+    color: rgba(0, 0, 0, 0);
+    }
+	.container{
+		background-image: url("img/bg.jpg");
+}
+	</style>
+	</head>
+	
+
+<body>
+	<header>
+		<div class="top_menu">
+			<ul class="top">
+				<li>
+					<a href="#">
+						Ola!
+						<span>Entrar</span>
+						ou
+						<span>Cadastre-se</span>
+					</a>
+				</li>
+				<li>
+					<a class="Minhas" href="#">
+						<img src="img/flag.png" alt=""><p>Minhas ofertas</p></a>
+				</li>
+				<li>
+					<a href="#">Ajuda</a>
+				</li>
+				<li>
+					<a href="#">Contato</a>
+				</li>
+				<li>
+					<a href="#">Forum</a>
+				</li>
+				<li>
+					<a href="#">Vender</a>
+				</li>
+				<li>
+					<a href="#">Meu YouBike</a>
+				</li>
+
+			</ul>
+		</div>
+	</header>
+	<div class="container">
+		<div class="box">
+			<div class="name">
+				<h1>Cadastre-se</h1>
+			</div>
+			<div class="input">
+			  <div class="facebook">
+				<button class="btn">Отправить</button>
+			</div>
+				<div class="ou">
+					<div class="line1"></div>
+					<div class="line2"></div>
+					<p>OU</p>
+				</div>
+				<form action="/">
+					<input class="fname" type="text" name="first_name" placeholder ="First Name">
+					<input class="lname" type="text" name="last_name" placeholder="Last Name">
+					<input class="mail" type="email" name="email" placeholder="Email Address">
+					<input class="pass" type="password" name="password" placeholder="Choose Password">
+					<input class="cpass" type="password" name="conf_pass" placeholder="Password Confirm">
+					<div class="chk">
+						<input class="subsc" type="checkbox" name="subscribe" id="sub">
+						<label for="sub">Send me YouBike updates and tips</label>
+					</div>
+					<button class="btn_acc">Create my account</button>
+					<div class="btn_text">
+						<p>By clicking the button above,you agree to the Terms of Servise</p>
+						<p>Xiew our Privacy Policy</p>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

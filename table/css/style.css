@@ -1,0 +1,54 @@
+table{
+    width: 500px;
+    height: 540px;   
+    border-collapse: separate;  
+}
+
+td{
+    border: solid #101413 3px;
+}
+
+.line1{
+    height: 48px; 
+
+    }
+.line2{
+    height: 130px;  
+}
+
+.line3{
+    height: 130px;  
+}
+
+.line4{
+    height: 60px;   
+}
+
+.line5{
+    height: 60px;     
+}
+
+.line6{
+    height: 30px;     
+}
+
+.line7{
+    height: 30px;   
+}
+
+.td1{
+    width: 48px;    
+}
+
+.td2,
+.td3{
+    width: 64px;    
+}
+
+.td4{
+    width: 128px;   
+}
+.td5,
+.td6{
+    width: 77px;    
+}
