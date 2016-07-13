@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="vieport" content="width=device-width, initial-scale=1.0">
 	<title>Home work 5</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -14,8 +15,18 @@
     cursor:pointer;
     color: rgba(0, 0, 0, 0);
     }
-	.container{
-		background-image: url("img/bg.jpg");
+	body>.container{
+		/*background-image: url("img/bg.jpg");*/
+		
+	margin: 0;
+	padding: 0;
+	/*height: 100%;*/
+	font-family: "Helvetica Neu Regular", tahoma;
+	font-size: 14px;
+	background: url("img/bg.jpg") no-repeat center center;
+	height: 100vh;
+	background-size: cover;
+	
 }
 	</style>
 	</head>
@@ -71,11 +82,11 @@
 					<p>OU</p>
 				</div>
 				<form action="/">
-					<input class="fname" type="text" name="first_name" placeholder ="First Name">
-					<input class="lname" type="text" name="last_name" placeholder="Last Name">
-					<input class="mail" type="email" name="email" placeholder="Email Address">
-					<input class="pass" type="password" name="password" placeholder="Choose Password">
-					<input class="cpass" type="password" name="conf_pass" placeholder="Password Confirm">
+					<input class="fname" type="text" name="first_name" required placeholder ="First Name">
+					<input class="lname" type="text" name="last_name" required placeholder="Last Name">
+					<input class="mail" type="email" name="email" required placeholder="Email Address">
+					<input class="pass" type="password" name="password" required placeholder="Choose Password">
+					<input class="cpass" type="password" name="conf_pass" required placeholder="Password Confirm">
 					<div class="chk">
 						<input class="subsc" type="checkbox" name="subscribe" id="sub">
 						<label for="sub">Send me YouBike updates and tips</label>
